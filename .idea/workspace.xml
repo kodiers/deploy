@@ -35,7 +35,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dns/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+            <state line="8" column="22" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
               <folding>
                 <element signature="e#0#71#0" expanded="true" />
               </folding>
@@ -43,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="functions.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dns/functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="12" selection-start="192" selection-end="192" vertical-scroll-proportion="0.2173913" vertical-offset="0" max-vertical-offset="414">
+            <state line="6" column="12" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
@@ -61,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="it-national.com" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="it-national.com" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/files/it-national.com">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="4" column="6" selection-start="66" selection-end="66" vertical-scroll-proportion="0.14492753" vertical-offset="0" max-vertical-offset="414">
               <folding />
             </state>
           </provider>
@@ -133,8 +133,8 @@
         <option value="$PROJECT_DIR$/deploy/urls.py" />
         <option value="$PROJECT_DIR$/templates/regsuccess.html" />
         <option value="$PROJECT_DIR$/files/it-national.com" />
-        <option value="$PROJECT_DIR$/dns/views.py" />
         <option value="$PROJECT_DIR$/dns/functions.py" />
+        <option value="$PROJECT_DIR$/dns/views.py" />
       </list>
     </option>
   </component>
@@ -687,16 +687,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dns/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+        <state line="8" column="22" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <folding>
             <element signature="e#0#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/it-national.com">
+    <entry file="file://$PROJECT_DIR$/dns/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+        <state line="6" column="12" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
           <folding />
         </state>
       </provider>
@@ -708,9 +708,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dns/functions.py">
+    <entry file="file://$PROJECT_DIR$/files/it-national.com">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="192" selection-end="192" vertical-scroll-proportion="0.2173913" vertical-offset="0" max-vertical-offset="414">
+        <state line="4" column="6" selection-start="66" selection-end="66" vertical-scroll-proportion="0.14492753" vertical-offset="0" max-vertical-offset="414">
           <folding />
         </state>
       </provider>
