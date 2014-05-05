@@ -12,7 +12,12 @@ def reg_user(request):
         form = MyUserCreationForm(request.POST)
         if form.is_valid():
             new_user = form.save()
+            # Edite zone file
+
             return HttpResponseRedirect("/regsuccess/")
     else:
         form = MyUserCreationForm()
     return render_to_response("registration.html", {"form":form}, context_instance=RequestContext(request))
+
+def reg_success(request):
+    return render_to_response("regsuccess.html", context_instance=RequestContext(request))
