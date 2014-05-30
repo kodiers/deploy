@@ -18,3 +18,5 @@ ns	IN	A	178.20.232.206
 @	IN	TXT	"v=spf1 a mx ~all"
 mail	IN	A	81.177.141.200
 www	IN	A	81.177.141.232
+q IN	A	62.75.238.85
+1qaz IN	A	62.75.238.85
