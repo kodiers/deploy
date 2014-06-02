@@ -1,4 +1,6 @@
 __author__ = 'kodiers'
+import fileinput
+import datetime
 
 def change_zone_file(filepath, username):
     '''
@@ -13,3 +15,11 @@ def change_zone_file(filepath, username):
     dnsfile.close()
     # TODO: add how to restart dns server
     # TODO: change serial number
+    # This code doesn't work
+    # dnsfile = open(filepath)
+    # lines = dnsfile.readlines()
+    # for line in fileinput.input(filepath, inplace=True):
+    #     if '; Serial' in line:
+    #         serial = datetime.datetime.now()
+    #         line = line.replace('2014042116	; Serial', serial.strftime("%s"))
+    # fileinput.close()
