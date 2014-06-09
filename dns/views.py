@@ -1,8 +1,6 @@
-from django.shortcuts import render, render_to_response, RequestContext
+from django.shortcuts import render_to_response, RequestContext
 from forms import MyUserCreationForm
-from django.http import HttpResponse, HttpResponseRedirect
-from django.template import loader
-from django.core.context_processors import csrf
+from django.http import HttpResponseRedirect
 from functions import change_zone_file
 FILEPATH = "/Users/kodiers/Desktop/PythonProjects/deploy/files/it-national.com" # path to zone file( shoul be in global settings
 
@@ -15,7 +13,7 @@ def reg_user(request):
             username = form.clean_username()
             form.save()
             # Edit zone file
-            change_zone_file(FILEPATH, username)
+            change_zone_file(FILEPATH, username)    # call function to change dns zones file
             return HttpResponseRedirect("/regsuccess/")
     else:
         form = MyUserCreationForm()

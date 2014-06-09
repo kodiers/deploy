@@ -3,7 +3,7 @@
 ;
 $TTL	604800
 @	IN	SOA	dev.it-national.com. info.it-national.com. (
-			 1402349635	; Serial
+			 2014042116	; Serial
 			 172800		; Refresh 2 days
 			    900		; Retry 15min
 			 604800		; Expire 1 week
@@ -20,6 +20,3 @@ mail	IN	A	81.177.141.200
 www	IN	A	81.177.141.232
 q IN	A	62.75.238.85
 1qaz IN	A	62.75.238.85
-12345 IN	A	62.75.238.85
-2323e IN	A	62.75.238.85
-cxvxv	IN	A	62.75.238.85
